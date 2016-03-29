@@ -17,3 +17,7 @@ $('.btn-bounce').on('click', function (e) {
 $('.circle').on('animationend', function (e) {
   $(this).removeClass('is-clicked4');
 });
+
+$('.btn-append').on('click', function (e) {
+  $('.list').append('<li>New List Item</li>');
+});
